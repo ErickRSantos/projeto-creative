@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  background-color: #C4C4C4;
+}
+
+nav a {
+  margin-left: 30px;
+  font-family: Nunito, sans-serif;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav a.home {
+  color: #3F7364;
+}
+
+nav a:hover {
+  -webkit-box-shadow: -1px -1px 20px -10px black;
+          box-shadow: -1px -1px 20px -10px black;
+}
+
+.area1, .area2, .area3 {
+  visibility: hidden;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  background: -webkit-gradient(linear, left top, right top, from(#E3E3E3), to(rgba(222, 221, 221, 0.9)));
+  background: linear-gradient(90deg, #E3E3E3 0%, rgba(222, 221, 221, 0.9) 100%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  margin: auto;
+}
+
+header img#titulo {
+  margin-left: 0px;
+  width: 530px;
+  height: 145px;
+}
+
+header img#cadernos {
+  margin-right: 0px;
+  width: 430px;
+  height: 430px;
+}
+
+section.carac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 600px;
+  background: -webkit-gradient(linear, right top, left top, from(#403738), to(rgba(64, 55, 56, 0.9)));
+  background: linear-gradient(270deg, #403738 0%, rgba(64, 55, 56, 0.9) 100%);
+}
+
+section.carac div.area2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Bungee, sans-serif;
+  color: snow;
+  text-align: center;
+}
+
+section.carac div.area2 img {
+  width: 500px;
+  height: 500px;
+}
+
+section.carac div.area2 li {
+  margin-left: 50px;
+  text-align: left;
+}
+
+section.offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 600px;
+  background: -webkit-gradient(linear, right top, left top, from(#3F7364), to(rgba(63, 115, 100, 0.9)));
+  background: linear-gradient(270deg, #3F7364 0%, rgba(63, 115, 100, 0.9) 100%);
+}
+
+section.offer div.area3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Bungee, sans-serif;
+  color: snow;
+}
+
+section.offer div.area3 img {
+  width: 500px;
+  height: 500px;
+}
+
+section.offer div.area3 div {
+  text-align: center;
+  margin-left: 40px;
+}
+
+section.offer div.area3 div p {
+  margin-bottom: 20px;
+}
+
+section.offer div.area3 div span {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+section.offer div.area3 div span.button1 {
+  background: linear-gradient(96.34deg, #313030 0%, rgba(49, 48, 48, 0.87) 100%);
+}
+
+section.offer div.area3 div span.button2 {
+  background: linear-gradient(96.34deg, #4F9783 0%, rgba(74, 140, 122, 0.8) 100%);
+}
+
+div.conteudo h2 {
+  font-size: 2.5em;
+}
+
+div.conteudo ul {
+  list-style-image: url(../imagens/Bullet.png);
+  font-size: 1.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+  background-color: #C4C4C4;
+}
+
+footer p {
+  color: black;
+  font-family: Nunito, sans-serif;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
